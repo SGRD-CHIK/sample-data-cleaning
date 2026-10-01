@@ -1,0 +1,5 @@
+name,email,email_status,phone,amount,date
+Іван Петренко,ivan.p@gmail.com,OK,+380671234567,1200,2026-03-05
+Олена Коваль,olena.koval@mail.com,OK,+380501234567,850,2026-05-03
+Марія Шевченко,maria@@example.com,CHECK,+380635551122,300,2026-04-12
+Андрій Мельник,,CHECK,+380998887766,1500,2026-04-15
