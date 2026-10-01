@@ -7,7 +7,7 @@
 The spreadsheet had 6 records. The same type of data was written in different ways:
 
 - **Names:** `  іван  петренко ` and `ОЛЕНА КОВАЛЬ` (extra spaces, mixed letter case)
-- **Phone numbers:** `0501234567`, `+380 (67) 123-45-67`, `380671234567`
+- **Phone numbers:** `501234567`, `+380 (67) 123-45-67`, `380671234567`
 - **Amounts:** `$1200`, `850 USD`, `300`
 - **Dates:** 5 different formats, including the unclear `03/05/2026`
 
