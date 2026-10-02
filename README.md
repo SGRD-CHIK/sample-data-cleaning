@@ -47,3 +47,27 @@ Google Sheets read this date wrongly (as 3 May) and showed no error. This is why
 6 records → **4 unique records**.
 
 Files: `before.csv` (original data), `after.csv` (cleaned data).
+
+## Automation
+
+The same cleaning was repeated with a Python script, so it can process thousands of rows in seconds.
+
+- `clean.py`: the script
+- `after_python.xlsx`: the result produced by the script
+
+**What the script does:**
+
+- Cleans names (extra spaces, letter case) and emails
+- Marks invalid or missing emails as `CHECK`
+- Converts phone numbers to one format
+- Converts amounts to real numbers
+- Converts dates to `YYYY-MM-DD`; dates it cannot read are marked `CHECK`
+- Removes duplicate rows and reports how many were removed
+
+**How to run it:**
+
+1. Install Python and pandas: `pip install pandas openpyxl`
+2. Put `before.csv` in the same folder as `clean.py`
+3. Run: `python clean.py`
+
+**Important:** the date rules in the script (day first with a dot, month first with a slash) were chosen for this specific file. For a new client file, these rules must be confirmed with the client first.
